@@ -1,8 +1,17 @@
-# - Try to find alglib 
-# Once done this will define
-#  ALGLIB_INCLUDE_DIRS - The alglib include directory
-#  ALGLIB_LIB - The libraries needed to use alglib
-#  ALGLIB_FOUND -  True if ALGLIB found.
+#.rst:
+# FindALGLIB
+# --------
+#
+# Find ALGLIB
+#
+# This module looks for the alglib library and sets ALGLIB_INCLUDE_DIRS,
+# ALGLIB_LIB and ALGLIB_FOUND variables
+#
+# ::
+#
+#   ALGLIB_INCLUDE_DIRS - The alglib include directory
+#   ALGLIB_LIB - The libraries needed to use alglib
+#   ALGLIB_FOUND -  True if ALGLIB found.
 
 find_path (ALGLIB_INCLUDE_DIRS 
   ap.h
